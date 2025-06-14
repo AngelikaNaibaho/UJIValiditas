@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 from scipy.stats import pearsonr
 
 app = Flask(__name__)
-
+# angka = [1,3,2,3,4,5]
 
 
 @app.route('/', methods=['GET', 'POST'])
